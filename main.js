@@ -51,7 +51,7 @@ decimal.addEventListener("click", function(){
 })
 
 function handleNumber(num){
-    if(currentValue.length <=5)
+    if(currentValue.length <=6)
         currentValue += num
 }
 
