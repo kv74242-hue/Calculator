@@ -35,7 +35,7 @@ equal.addEventListener("click", function(){
     if (currentValue != '' && previousValue != ''){
     calculate()
     previousScreen.textContent = ''
-    if(previousValue.length <= 6){
+    if(previousValue.length <= 5){
     currentScreen.textContent = previousValue
 } else {
     currentScreen.textContent = previousValue.slice(0,5) + "....."
@@ -51,7 +51,7 @@ decimal.addEventListener("click", function(){
 })
 
 function handleNumber(num){
-    if(currentValue.length <=6)
+    if(currentValue.length <=5)
         currentValue += num
 }
 
